@@ -6,12 +6,14 @@
 10 minute demo going from a blank page to verifying that a particular function satisfies the wave equation.
 
 ## Purpose
-Introduce user to some of the capabilities of Symbolic Math Toolbox&trade; and Live Scripts&trade;, including formatting, Live Tasks, entering equations, Live Controls and publishing.
+Introduce some capabilities of Symbolic Math Toolbox&trade; and Live Scripts&trade;, including formatting, Live Tasks, entering equations, Live Controls and publishing.
 
+Scenario:
 Someone gave me this solution to the wave equation:
 $$sol=\frac{cos(x-ct)}{2}+\frac{cos(x+ct)}{2}$$
 I remember from d'Alembert that $f(x-ct)+f(x+ct)$ should satisfy the equation, but let's verify...
-This is the equation:
+
+This is the Wave Equation:
 $\frac{\partial^2 }{\partial t^2 }u=c^2 \frac{\partial^2 }{\partial x^2 }u$
 
 
